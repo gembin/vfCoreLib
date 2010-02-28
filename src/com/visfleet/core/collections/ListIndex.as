@@ -81,7 +81,7 @@ import mx.events.PropertyChangeEvent;
         public function initialized(document:Object, id:String):void {
 		}
 
-        protected function emptyIndex():ArrayCollection {
+        protected function emptyIndex():void {
             var collection:ArrayCollection;
 
             for each (collection in _index) {
